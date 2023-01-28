@@ -1,0 +1,45 @@
+.team {
+
+    .team-header {
+
+        text-align: center;
+
+        .our-team {
+
+            text-align: center;
+            font-size: 40px;
+            font-weight: 900;
+            line-height: 48px;
+            color: rgb(0, 123, 255);
+
+        }
+
+        .team-description {
+            color: rgb(128, 128, 128);
+            font-size: 20px;
+            font-weight: 200;
+        }
+    }
+
+    .team-cards {
+        padding-left: 180px;
+        display: flex;
+        flex-wrap: wrap;
+        width: 80%;
+        gap: 88px;
+        justify-content: center;
+
+        .card {
+
+            .person-image {
+                width: 250px;
+            }
+
+            .person-name {}
+
+            .person-job {}
+        }
+    }
+    margin-top: 200px;
+    margin-bottom: 200px;
+}

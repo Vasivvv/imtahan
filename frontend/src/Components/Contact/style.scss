@@ -1,0 +1,121 @@
+
+
+
+.contacts{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+width: 100%;
+    .location{
+        .contact-icons{
+            display: flex;
+            align-items: center;
+         }
+    }
+
+    .phone{
+        .contact-icons{
+            display: flex;
+            align-items: center;
+         }
+    }
+
+    .mail{
+        .contact-icons{
+            display: flex;
+            align-items: center;
+         }
+    }
+    
+}
+
+.contact-head{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 48px;
+    color: rgb(0, 123, 255);
+    margin-bottom: 50px;
+}
+
+.forms {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+
+    .names {
+        margin-bottom: 20px;
+        display: flex;
+        gap: 20px;
+
+        .firstname {
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .lastname {
+            width: 50%;
+
+            display: flex;
+            flex-direction: column;
+
+        }
+
+    }
+
+    .email {
+
+
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+
+    }
+
+    .subject {
+
+
+        margin-bottom: 20px;
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .message {
+
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+
+        .message-int {
+            height: 20vh;
+
+        }
+    }
+.send-btn{
+    cursor: pointer;
+    padding: 10px 10px;
+    height: 4vh;
+    width: 120px;
+    display: flex;
+    border-radius: 30px;
+    background-color: blue;
+    color: white;
+   
+}
+margin-bottom: 100px;
+}
+
+input {
+    border-radius: 30px;
+    border-color: gray;
+
+}
+
+.int {
+    height: 4vh;
+    border-color: gray;
+}

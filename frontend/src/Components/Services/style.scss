@@ -1,0 +1,45 @@
+
+.services-header{
+
+    text-align: center;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 48px;
+    color: rgb(0, 123, 255);
+    margin-bottom: 150px;
+}
+.services-card-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+    .services-cards {
+        display: flex;
+        gap: 130px;
+
+        flex-wrap: wrap;
+        justify-content: center;
+
+        .services-card {
+            width: 20%;
+            .delete-btn{
+padding-right: 10px;
+                width: 15px;
+                height: 15px;
+                border-radius: 20px;
+                border-color: red;
+            }
+i{
+    color:rgb(0,123,255) ;
+    font-size: 40px;
+}
+            .learn-btn{
+                color: blue;
+                border: none;
+                background-color: transparent;
+            }
+        }
+    }
+
+    margin-bottom: 200px;
+}

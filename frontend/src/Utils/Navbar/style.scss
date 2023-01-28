@@ -1,0 +1,33 @@
+.navbar {
+background-color: transparent;
+position: fixed;
+width: 100%;
+
+    .nav-items {
+        align-items: center;
+        display: flex;
+        justify-content: space-around;
+        .nav-logo {
+            font-size: 32px;
+            font-weight: 500;
+            color: black;
+            .dot{
+                color: rgb(0, 123, 255);
+              }
+        }
+
+        .nav-menu {
+
+            ul {
+                display: flex;
+                gap: 20px;
+
+                .navlink {
+                    color:rgb(188,197,193);
+                    text-decoration: none;
+               
+                }
+            }
+        }
+    }
+}
